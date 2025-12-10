@@ -4,5 +4,5 @@
 
 ## GitHub Pages
 
-Сайт доступен по адресу: `https://[ваш-username].github.io/voronezhpivo-landing/`
+Сайт доступен по адресу: `https://daywalker0.github.io/voronezhpivo-landing/`
 
