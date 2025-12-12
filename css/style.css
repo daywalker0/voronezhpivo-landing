@@ -124,8 +124,7 @@ img {
 }
 
 .content {
-    position: absolute;
-    margin-top: -10vw;
+    position: relative;
     width: 100%;
 }
 
@@ -150,10 +149,8 @@ img {
 
 .container {
     position: absolute;
+    right: 100px;
     top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     margin-top: 10vw;
 }
 
@@ -360,6 +357,25 @@ img {
 }
 
 /* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .content {
+        top: 0;
+        margin-top: 0;
+    }
+
+    .container {
+        margin-top: 0;
+        min-height: auto;
+    }
+
+    .footer {
+        position: relative;
+        bottom: auto;
+        margin-top: 0;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 390px) {
     .beer {
         width: 70vw;
