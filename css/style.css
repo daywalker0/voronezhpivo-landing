@@ -397,7 +397,6 @@ img {
 
 @media screen and (max-width: 599px) {
     .app {
-        height: 1000px;
         overflow-x: hidden;
     }
 
@@ -480,7 +479,7 @@ img {
     }
 
     .landscape {
-        height: 40%;
+        height: 420px;
     }
 
     .landscape-2 {
