@@ -376,29 +376,123 @@ img {
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 900px) {
+    .buy-button {
+        padding: 15px;
+    }
+
+    .buy-text {
+        font-size: 20px;
+    }
+
+    .ozon-icon {
+        font-size: 18px;
+    }
+
+    .catalog-button {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .app {
+        height: 1000px;
+        overflow-x: hidden;
+    }
+
+    .buy-text {
+        font-size: 2.5vw;
+    }
+
+    .buy-button {
+        padding: 10px;
+        top: 30vw;
+        right: 30vw;
+    }
+
+    .ozon-icon {
+        font-size: 1.8vw;
+    }
+
+    .catalog-button {
+        font-size: 2.5em;
+        padding: 10px;
+    }
+    
+    
+    .container {
+        right: 26px;
+    }
+
+    .description {
+        max-width: 300px;
+        margin-top: 60px;
+    }
+
+    .description > .name {
+        font-size: 40px;
+        max-width: 200px;
+    }
+    .description > .text {
+        font-size: 12px;
+        line-height: 1.2;
+    }
     .beer {
         width: 70vw;
-        left: 0;
+        left: -50px;
         top: 5vw;
+    }
+
+    .title {
+        width: 70vw;
+    }
+    
+    .alcohol-free {
+        display: none;
+    }
+    .description .alco .text {
+        margin: 20px 0;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: 'Bebas Neue';
+    }
+
+    .description > .text {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Arial';
+    }
+
+    .buy-button {
+        top: 35vw;
+        padding: 20px 10px;
+        right: 20vw;
+    }
+    
+    .buy-text {
+        font-size: 25px;
+    }
+
+    .ozon-icon {
+        font-size: 18px;
+    }
+
+    .landscape {
+        height: 40%;
     }
 
     .landscape-2 {
         position: absolute;
         width: unset;
         right: 0;
-    }
-
-    .description {
-        left: 15vw;
-        max-width: 80vw;
-        margin-top: 35vw;
-        bottom: 100px; /* Отступ для мобильных устройств */
+        height: 840px;
     }
 
     .description .name {
-        font-size: 15vw;
-        line-height: 15vw;
+        font-size: 40px;
+        line-height: 100%;
     }
 
     .description .alco {
@@ -414,19 +508,14 @@ img {
         width: 5vw;
     }
 
-    .description > .text {
-        font-size: 4vw;
-        line-height: 5vw;
-    }
-
     .description .text p {
         margin: 5vw 0 0;
     }
 
     .slogan {
         margin-top: 7vw;
-        font-size: 5vw;
-        line-height: 10vw;
+        font-size: 18px;
+        line-height: 1.6;
     }
 
     .catalog-text {
@@ -454,7 +543,51 @@ img {
         display: none;
     }
 
+    .content {
+        height: 840px;
+    }
+
     .footer-link {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .beer {
+        width: 100vw;
+    }
+
+    .grass-1 {
+        top: 75vw;
+        right: 20vw;
+    }
+
+    .buy-button {
+        right: 10vw;
+        padding: 10px;
+    }
+    .buy-text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .grass-1 {
+        top: 85vw;
+        right: 20vw;
+    }
+
+    .beer {
+        width: 115vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .grass-1 {
+        display: none;
+    }
+
+    .beer {
+        width: 115vw;
     }
 }
